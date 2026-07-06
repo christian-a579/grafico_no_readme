@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: node scripts/generate-tech-stack.js
+      - run: node scripts/generate-stack.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: christian-a579
